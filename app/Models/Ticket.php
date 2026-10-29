@@ -33,6 +33,10 @@ class Ticket extends Model
         'closed_at',
     ];
 
+    /**
+     * @return array<string, string>
+     */
+
     public function casts(): array
     {
         return [
